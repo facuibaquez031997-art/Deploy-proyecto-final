@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏆 09: El Proyecto Final y el Desafío de Graduación
 
 ¡Felicidades! Si llegaste hasta aquí y tu cabeza aún no ha explotado con Flexbox y Grid, ya tienes el nivel necesario para llamarte **Maquetador Web**.
@@ -54,3 +55,6 @@ Te recomendamos este orden de dificultad:
 > _"Un buen desarrollador no es el que memoriza todas las propiedades de CSS, es el que sabe cómo combinarlas para resolver un problema de diseño."_
 
 ¡Mucho éxito, futuros Full Stack! Nos vemos en el módulo de JavaScript para darle interactividad a todo esto. 🚀
+=======
+# Deploy-proyecto-final
+>>>>>>> 202ebb8b38c2d97c16f66c54f52c562beadd6680
