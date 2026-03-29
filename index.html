@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appwise Music - Proyecto Final</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+
+  <body>
+
+    <aside class="sidebar">
+      <div class="auriculares"><i class="fa-solid fa-headphones"></i></div>
+      <h1 class="h1">App Wise</h1>
+
+      <nav>
+        <ul>
+          <li class="nav">
+            <a class="icono" href="#">
+              <i class="fa-solid fa-house"></i> Inicio
+            </a>
+          </li>
+          <li class="nav">
+            <a class="icono" href="#">
+              <i class="fa-solid fa-magnifying-glass"></i> Buscar
+            </a>
+          </li>
+          <li class="nav">
+            <a class="icono"  href="#">
+              <i class="fa-solid fa-book"></i> Tu Biblioteca
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <hr>
+
+      <h3>Playlists</h3>
+      <ul class="playlist">
+        <li><a href="#">Lo-fi beats 2024</a></li>
+        <li><a href="#">Rock Nacional</a></li>
+        <li><a href="#">Playlist para codear</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+
+      <header class="header">
+        <input type="text" placeholder="Buscar música..." />
+
+        <div class="acciones">
+          <button class="btn-premium">Explorar Premium</button>
+          <i class="fa-solid fa-circle-user"></i>
+        </div>
+      </header>
+
+      <section class="music-section">
+        <h2>Tu Música</h2>
+        <p class="subtitulo">Tus playlists recientes</p>
+
+        <div class="container">
+
+          <div class="card-musica">
+            <img src="assets/la renga.jpg" alt="despedazado por mil partes">
+
+            <div class="info">
+              <p class="titulo">La Renga</p>
+              <p class="descripcion">El Final Es En Donde Partí</p>
+            </div>
+          </div>
+
+          <div class="card-musica">
+            <img src="assets/pr.jpg" alt="ella debe ser tan linda PR">
+
+            <div class="info">
+              <p class="titulo">Patricio Rey</p>
+              <p class="descripcion">Ella Debe Estar Tan Linda</p>
+            </div>
+          </div>
+
+          <div class="card-musica">
+           <img src="assets/acdc.jpg" alt="Rock N Roll Train (Live) AC/DC">
+            <div class="info">
+              <p class="titulo">AC/DC</p>
+              <p class="descripcion">Rock N Roll Train (Live)</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="player">
+      <audio controls>
+      <source src="audio/la-renga.mp3" type="audio/mpeg">
+      </audio>
+    </footer>
+
+  </body>
+</html>
